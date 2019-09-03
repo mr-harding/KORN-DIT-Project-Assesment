@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav1 ul {
+  text-align: right;
+}
+
+.nav1 li {
+  display: inline-block;
+  list-style: none;
+  padding: 15px;
+  text-align: right;
+}
+
+.nav1 a {
+  text-decoration: none;
+  color: black;
+  text-align: right;
+}
+.nav2 ul {
+  text-align: right;
+}
+
+.nav2 li {
+  display: inline-block;
+  list-style: none;
+  padding: 15px;
+  text-align: right;
+}
+
+.nav2 a {
+  text-decoration: none;
+  color: black;
+  text-align: right;
+}
+
+ .hero.img {
+   padding:10px 0px;
+ }
+
+ #slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 1000px;
+  height: 700px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+ p {
+   font-size: 15px;
+   padding: 0px 100px;
+ }
