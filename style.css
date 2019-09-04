@@ -41,25 +41,21 @@
   text-align: right;
 }
 
- .hero.img {
-   padding:10px 0px;
- }
-
  #slideshow {
   margin: 30px auto;
   position: relative;
-  width: 1280px;
-  height: 720px;
-  padding: 10px;
+  width: 1600px;
+  height: 750px;
+  padding: 0px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
 #slideshow > div {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
  p {
