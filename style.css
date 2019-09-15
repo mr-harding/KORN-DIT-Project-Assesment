@@ -4,19 +4,19 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
-.nav1 img {
+.nav img {
   width: 100px;
 }
-.nav1 ul {
+.nav ul {
   text-align: right;
   background-color: red;
 }
 
-.nav1 li {
+.nav li {
   display: inline-block;
   list-style: none;
   padding: 20px;
@@ -24,7 +24,7 @@
   font-size: 20px;
 }
 
-.nav1 a {
+.nav a {
   text-decoration: none;
   color: white;
   text-align: right;
@@ -47,13 +47,13 @@
   bottom: 0px;
 }
 
- p {
+.text-block p {
    font-size: 15px;
-   padding: 10px 100px;
+   padding: 150px 100px 50px 100px;
  }
 
- body {
-  padding: 20px;
+body {
+  padding: 0px;
   font-family: sans-serif;
   background: #f2f2f2;
 }
@@ -64,6 +64,7 @@ img {
 h2 {
   margin-bottom: .5em;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
